@@ -1,0 +1,18 @@
+header {
+  background-color: darkred;
+  text-align: center; 
+}
+.white {
+  color: white;
+}
+h3 {
+  font-size: 30px;
+  text-align: center;
+}
+.subheader {
+  font-weight: bold;
+  font-size: 20px;
+}
+* {
+  font-family: sans-serif;
+}
