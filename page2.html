@@ -2,12 +2,14 @@
 <html>
   <head> 
     <title>Sci-Fi</title> 
+    <!-- Link to the stylesheet called style.css -->
+    <link rel="stylesheet" href="css/style.css" />
   </head> 
   <body> 
     <header>
-        <h1>Media Genres: Sci-Fi</h1>
+        <h1 class = "white">Media Genres: Sci-Fi</h1>
         <!-- The purpose of this HTML is to make a website for educational purposes for those curious about film genres, specifically Sci-Fi. -->
-        <p>Brief: Sci-Fi is a genre of speculative fiction the dabbles in advanced technology.</p>
+        <p class = "white">Brief: Sci-Fi is a genre of speculative fiction the dabbles in advanced technology.</p>
     </header>
     <main>
         <article>
@@ -18,8 +20,9 @@
                 alt = "A bright and colorful front facing image of the USS Entrprise from the Star Trek franchise." 
                 width = "50%"
             >
-            <section>
-                <p>My Favorite Sci-Fi Movies</p>
+            <div id="section_wrapper">
+            <section id = "sections">
+                <p class = "subheader">My Favorite Sci-Fi Movies</p>
                 <!-- These are my personal favorite Sci-Fi films. -->
                 <ul> 
                     <li>Star Wars: A New Hope</li>
@@ -27,8 +30,8 @@
                     <li>Back to the Future</li> 
                 </ul>
             </section>
-                <section>
-                <p>Best Rated Sci-Fi Movies</p>
+            <section id = "sections">
+                <p class = "subheader">Best Rated Sci-Fi Movies</p>
                 <!-- These are the most popular Sci-Fi films based on statistics I found online. -->
                 <ol>
                     <li>Interstellar</li>
@@ -36,13 +39,14 @@
                     <li>Frankenstein</li>
                 </ol>
             </section>
-            <p>Learn more about<a href = "https://en.wikipedia.org/wiki/Science_fiction"> Sci-Fi</a> here!</p>
+            </div>
+            <p class = "button">Learn more about <a href = "https://en.wikipedia.org/wiki/Science_fiction">Sci-Fi</a> here!</p>
             <!-- This in an external link to Wikipedia. -->
         </article>
-        <nav>
+        <nav id = "footer">
             <h4>Navigation:
             <ul>
-                <p>Check out our <a href = "index.html">Home </a>page!</p>
+                <p>Check out our <a href = "index.html">Home</a> page!</p>
                 <!-- This is an internal link to Index. -->
             </ul>
         </nav>
